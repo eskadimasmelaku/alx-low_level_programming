@@ -5,16 +5,14 @@
  * Description: my own headerfile and putchar () function prototype
  * Return: Always 0
  */
-
 int main(void)
 {
-	char c[9] = "_putchar";
-	int i = 0;
+	char c[] = "_putchar";
+	int i;
 
-	while (i < 8)
+	for (i=0; i<8; i++)
 	{
 		_putchar(c[i]);
-		i++;
 	}
 	_putchar('\n');
 	return (0);
