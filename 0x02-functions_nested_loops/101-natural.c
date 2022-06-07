@@ -14,18 +14,13 @@ int main(void)
 	int sum = 0;
 	int lim = 1024;
 
-
 	while (i == 0)
 	{
-
-	
 		if (m3 < lim)
 		{
 			sum += m3;
 			m3 += 3;
 		}
-
-	
 		if (m5 < lim && (m5 % 3) != 0)
 		{
 			sum += m5;
@@ -35,8 +30,6 @@ int main(void)
 		{
 			m5 += 5;
 		}
-
-	
 		if (m3 >= lim && m5 >= lim)
 		{
 			i = 1;
