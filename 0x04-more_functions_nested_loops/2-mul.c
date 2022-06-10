@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * mul - returns the product of its parameters
