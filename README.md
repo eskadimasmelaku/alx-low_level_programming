@@ -1,1 +1,1 @@
-Even more pointers, arrays and strings
+0x00. C - Hello, World
