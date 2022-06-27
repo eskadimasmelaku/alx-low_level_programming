@@ -104,6 +104,7 @@ char **strtow(char *str)
 			str_addChar(token, str[i]);
 			checkingSpace = 0;
 		}
-	tokens[] = NULL;
+	}
+	tokens[i] = NULL;
 	return (tokens);
 }
