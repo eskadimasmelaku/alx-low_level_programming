@@ -80,7 +80,7 @@ char **strtow(char *str)
 
 	if (!tokens)
 	{
-		printf("Failed");
+		printf("Talk is cheap. Show me the code.");
 		return (0);
 	}
 	printf("looping");
