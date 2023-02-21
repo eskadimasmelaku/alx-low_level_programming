@@ -6,7 +6,7 @@
  * Return: 1 for alphabetic character or 0 for anything else
  */
 
-int _islower(int c)
+int _isalpha(int c)
 
 {
 
@@ -17,4 +17,3 @@ int _islower(int c)
 	}
 	return (0);
 }
-
