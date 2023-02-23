@@ -2,13 +2,14 @@
 
 /**
  * _isupper - Check if the letter is upper
- * @c: The letter to be checked
- * Return: 1 for upper letter or 0 for any else.
+ * @c: char to check
+ *
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
 {
-	if (x >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
