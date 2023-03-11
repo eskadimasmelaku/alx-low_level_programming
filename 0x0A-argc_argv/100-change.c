@@ -24,14 +24,14 @@ int main(int argc, char *argv[])
 	while (cents > 0)
 	{
 		coins++;
-		if ((cents - 10) >= 0)
-		{
-			cents -= 10;
-			continue;
-		}
 		if ((cents - 25) >= 0)
 		{
 			cents -= 25;
+			continue;
+		}
+		if ((cents - 10) >= 0)
+		{
+			cents -= 10;
 			continue;
 		}
 		if ((cents - 5) >= 0)
