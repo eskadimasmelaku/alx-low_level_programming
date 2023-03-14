@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  *  * _strlen - length of a string
@@ -53,3 +55,4 @@ char *str_concat(char *s1, char *s2)
 		;
 	return (conc);
 }
+
