@@ -1,1 +1,1 @@
-dynamic liberaries
+0x18. C - Dynamic libraries
